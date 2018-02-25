@@ -1,0 +1,4 @@
+/* tablet min641 ~ max959 */
+@media screen and (min-width: 641px) and (max-width: 999px) {
+  #wrap{background-color: #0cf;}
+}
