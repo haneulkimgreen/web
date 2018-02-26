@@ -1,4 +1,4 @@
-/* fullpage 960~full */
+/* fullpage 1000px~full */
 @media screen and (min-width: 1000px) {
   #wrap{width: 100%; min-width: 1000px; height: auto; min-height: 1000px;}
   /* #headBox */
@@ -32,10 +32,10 @@
   #contentBox{width: 100%; height: auto;}
     .video_wrap{width: 100%; height: auto; padding: 100px 0; box-sizing: border-box;}
       .video_box{width: 1000px; height: 565px; margin: 0 auto; background-color: #ddd;}
-      .video_box>span{display: block; width: 0; height: 0; overflow: hidden; position: absolute; z-index: -1;}
+      .video_box>h3{display: block; width: 0; height: 0; overflow: hidden; position: absolute; z-index: -1;}
     .connection_wrap{width: 100%; height: auto; padding: 100px 0; box-sizing: border-box;}
-      .connection_wrap>p:nth-child(1){margin-bottom: 45px; font-size: 35px; text-transform: capitalize; text-align: center;}
-      .connection_wrap>p:nth-child(2){font-size: 25px; line-height: 36px; text-transform: capitalize; text-align: center;}
+      .connection_wrap>h3{margin-bottom: 45px; font-size: 35px; text-transform: capitalize; text-align: center;}
+      .connection_wrap>p{font-size: 25px; line-height: 36px; text-transform: capitalize; text-align: center;}
     /* text 부분 강조는 html의 <strong>태그 대신 css를 이용하였습니다. */
     .about_wrap{width: 100%; height: 650px; padding: 100px 0; box-sizing: border-box;}
       .about_box{width: 100%; height: 450px; padding-top:155px; box-sizing: border-box;
@@ -49,8 +49,8 @@
                -o-background-size: 100%;
                   background-size: 100%;
       }
-      .about_box>p{font-size: 30px; line-height: 45px; text-transform: uppercase; text-align: center; margin-bottom: 20px;}
-      .about_box>p>span{font-weight: bold;}
+      .about_box>h3{font-size: 30px; line-height: 45px; text-transform: uppercase; text-align: center; margin-bottom: 20px;}
+      .about_box>h3>span{font-weight: bold;}
       .about_box>div{width: 210px; height: 60px; border:1px solid #000; border-radius: 30px; position: absolute; left: 50%; margin-left: -105px;}
       .about_box>div>a{display: block; width: 100%; height: 100%; border-radius: 30px; font-size: 30px; line-height: 60px; text-align: center; text-transform: uppercase; color: #333 ;}
       /* ABOUT ACG버튼 hover시 효과 */
@@ -60,7 +60,7 @@
       /* //ABOUT ACG버튼 hover시 효과 */
     .service_wrap{width: 100%; height: 535px;}
       .service_box{width: 1000px; height: 535px; margin: 0 auto;}
-      .service_box>p{height: 35px; font-size: 35px; text-transform: capitalize; text-align: center;}
+      .service_box>h3{height: 35px; font-size: 35px; text-transform: capitalize; text-align: center;}
       .service_box>ul{width: 100%; height: 500px; padding: 100px 0; box-sizing: border-box;}
       .service_box>ul>li{width: 300px; height: 300px; float: left; margin-right: 50px;}
       .service_box>ul>li:nth-child(3){margin-right: 0;}
@@ -79,8 +79,8 @@
       .service_box>ul>li>span{display: block; width: 0; height: 0; overflow: hidden; position: absolute; z-index: -1;}
     .process_wrap{width: 100%; height: 1025px; position: relative;}
       .process_box{width: 1000px; height: 1025px; padding-top: 100px; box-sizing: border-box; margin: 0 auto;}
-      .process_box>p:nth-child(1){font-size: 35px; text-align: center; text-transform: capitalize; margin-bottom: 40px;}
-      .process_box>p:nth-child(2){font-size: 25px; text-align: center; text-transform: uppercase; margin-bottom: 125px;}
+      .process_box>h3{font-size: 35px; text-align: center; text-transform: capitalize; margin-bottom: 40px;}
+      .process_box>p{font-size: 25px; text-align: center; text-transform: uppercase; margin-bottom: 125px;}
       .process_box>div{width: 1000px; height: 500px;
         background-image: url("../../img/acg_main_process_img.png");
           background-repeat: no-repeat;
@@ -97,6 +97,8 @@
   /* //#contentBox */
   /* #footBox */
   #footBox{width: 100%; height: 150px; background-color: #333;}
+  /* 웹 접근성을 위해 스크린리더로는 읽을 수 있지만 웹상에는 표기되지 않게 했습니다. */
+  #footBox>h2{display: block; width: 0; height: 0; overflow: hidden; position: absolute; z-index: -1;}
   .address_wrap{width: 1105px; height: 150px; padding-top: 50px; box-sizing: border-box; margin: 0 auto; color: #fff; font-size: 18px;}
   .address_wrap>ul{width: 100%; height: 18px; margin-bottom: 14px;}
   .address_wrap>ul>li{width: auto; height: 18px; float: left;}
@@ -106,4 +108,4 @@
   .address_wrap>div{text-align: center;}
   /* //#footBox */
 }
-/* -----------------fullpage 960~full */
+/* -----fullpage 1000px~full */
