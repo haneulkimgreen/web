@@ -1,5 +1,8 @@
 /* mobile max640 */
  @media screen and (max-width:640px) {
-  #wrap{background-color: #fa0;}
+  #wrap{width: 100%; min-width: auto;  height: auto; min-height: 500px;}
+  #headBox{width: 100%; height: 125px;}
+    #headBox>h1{}
+    #headBox>h1>a{}
  }
-/* -----------mobile max640 */
+/* ----- mobile max640 */
