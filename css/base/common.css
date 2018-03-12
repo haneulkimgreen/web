@@ -16,7 +16,7 @@
 #wrap ol>.bottom{margin-bottom:0; border-bottom:0;}
 
 .wrap{width: 100%; height: auto;}
-.wrap_full{width: 100%; min-width: 960px; height: auto; margin: 0 auto;}
+/*.wrap_full{width: 100%; min-width: 960px; height: auto; margin: 0 auto;}*/
 .wrap:after,.wrap_full:after{content:" "; display: block; clear:both;}
 
 

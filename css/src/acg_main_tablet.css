@@ -37,17 +37,17 @@
       .connection_wrap>h3{margin-bottom: 45px; font-size: 35px; text-transform: capitalize; text-align: center;}
       .connection_wrap>p{font-size: 25px; line-height: 36px; text-transform: capitalize; text-align: center;}
     /* text 부분 강조는 html의 <strong>태그 대신 css를 이용하였습니다. */
-    .about_wrap{width: 100%; height: 73vw; /* 높이값 730 / 기준가로값 1000 * 100 vw */ padding: 180px 0 100px 0; box-sizing: border-box;}
+    .about_wrap{width: 100%; height: 73vw; /* 높이값 730 / 기준가로값 1000 * 100 vw */ min-height: 650px; padding: 180px 0 100px 0; box-sizing: border-box;}
       .about_box{width: 100%; height: 100%; padding-top:16vw; /* 해당값 160 / 기준가로값 1000 * 100 vw */ box-sizing: border-box;
         position: relative;
         background-image: url("../../img/bench-accounting.png");
         background-repeat: no-repeat;
-        background-position: center;
-        -webkit-background-size: 100%;
-        -moz-background-size: 100%;
-        -ms-background-size: 100%;
-        -o-background-size: 100%;
-        background-size: 100%;}
+        background-position: left center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;}
         .about_box>h3{font-size: 29px; line-height: 45px; text-transform: uppercase; text-align: center; margin-bottom: 20px;}
           .about_box>h3>span{font-weight: bold;}
         .about_box>div{width: 210px; height: 60px; border:1px solid #000; border-radius: 30px; position: absolute; left: 50%; margin-left: -105px;}
